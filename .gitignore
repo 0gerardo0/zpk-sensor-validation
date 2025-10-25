@@ -1,0 +1,36 @@
+
+cat > .gitignore << 'EOF'
+# Python
+__pycache__/
+*.pyc
+venv/
+zkp-env/
+.env
+
+# Node.js  
+node_modules/
+npm-debug.log*
+
+# ZKP Generated files
+*.r1cs
+*.wasm
+*.zkey
+proof.json
+public.json
+
+# Arduino
+*.hex
+*.bin
+*.elf
+
+# IDE
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+EOF
