@@ -1,21 +1,28 @@
 {
   "name": "zkp-sensor-validation-thesis",
   "version": "1.0.0",
-  "description": "**Sistema de Validación de Datos de Sensores IoT usando Pruebas de Conocimiento Cero**",
+  "description": "Sistema de Validación de Datos de Sensores IoT usando Pruebas de Conocimiento Cero",
   "main": "index.js",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node tests/run_tests.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/0gerardo0/zpk-sensor-validation.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "zkp",
+    "snark",
+    "groth16",
+    "circom",
+    "iot",
+    "arduino"
+  ],
+  "author": "Gerardo",
+  "license": "MIT",
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/0gerardo0/zpk-sensor-validation/issues"

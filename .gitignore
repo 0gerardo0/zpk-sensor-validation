@@ -1,5 +1,3 @@
-
-cat > .gitignore << 'EOF'
 # Python
 __pycache__/
 *.pyc
@@ -33,4 +31,10 @@ Thumbs.db
 
 # Logs
 *.log
-EOF
+
+#KEYS
+tools/ptau/*.ptau
+src/zkp/keys/*.zkey
+
+!src/zkp/keys/verification_key.json
+
